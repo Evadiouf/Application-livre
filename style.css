@@ -1,0 +1,56 @@
+
+
+
+.container{
+    background-color: black;
+    border: 1px solid black;
+    display: flex;
+    width: 50%;
+
+
+    margin: 30px auto; 
+
+}
+#table{
+    border-collapse: collapse;
+    min-width:400px;
+    width: auto;
+    color: white;
+}
+
+#table td,#table th{
+    border: 1px solid white;
+    padding:15px 25px ;
+    text-align: left;
+
+}
+#table th{
+    background-color: gray;
+    color:black;
+}
+#table tr{
+    margin: 10px;
+
+    
+}
+
+
+.tab-2{
+    width:150px;
+    margin-left: 50px
+   
+
+}
+.tab-2 input[type="text"]{
+   
+    
+    width: 100%;
+}
+.tab-2 input[type="number"]{
+  
+    margin-bottom: 10px ;
+    width: 100%;
+}
+label{
+    color: white;
+}

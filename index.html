@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Edit Remove HTML Table Row</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title> livre</title>
+        
+        
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="tab tab-1">
+                <table id="table" >
+                    <tr>
+                        <th>Livre</th>
+                        <th>Auteur</th>
+                        <th>Annee Publication</th>
+                    </tr>
+                    <tr>
+                        <td>Si longue lettre</td>
+                        <td>Mariama Ba</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Chambre 7</td>
+                        <td>Faty Dieng</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>Pere Riche Pere Pauvre</td>
+                        <td>Robert K</td>
+                        <td>20</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab tab-2">
+               <label for=""> Livre:</label> 
+                <input type="text" name="livre" id="livre">
+                <label for=""> Auteur:</label>
+                <input type="text" name="auteur" id="auteur">
+                <label for=""> Annee Pub:</label>
+                <input type="number" name="anneePub" id="anneePub">
+                
+                <button onclick="addHtmlTableRow();">Add</button>
+                <button onclick="marquerluHtmlTbleSelectedRow(); ">MarquerLu</button>
+                <button onclick="removeSelectedRow();">Remove</button>
+            </div>
+        </div>
+        
+
+    <script src="script.js"></script>
+    
+</body>
+</html> 
