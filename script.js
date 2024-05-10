@@ -42,14 +42,11 @@
                 cell1.innerHTML = livre;
                 cell2.innerHTML = auteur;
                 cell3.innerHTML = anneePub;
-                // call the function to set the event to the new row
-                selectedRowToInput();
-
+              
                 localStorage.setItem("livre", document.getElementById("livre").value);
                 localStorage.setItem("auteur", document.getElementById("auteur").value);
                 localStorage.setItem("anneePub",document.getElementById("anneePub").value );
-
-               
+                selectedRowToInput();
             }
             }
             
