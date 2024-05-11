@@ -1,3 +1,5 @@
+// recuperation id de l element table
+
 var rIndex,
 table = document.getElementById("table");
 
